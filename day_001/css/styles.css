@@ -1,0 +1,39 @@
+.slid-button {
+  display: inline-block;
+  margin: 8px;
+  background: #383838;
+  border: none;
+  cursor: pointer;
+  height: 6px;
+  width: 36px;
+}
+
+.current-slid-button {
+  background: #d25b16;
+}
+
+.slid {
+  font-size: 26pt;
+  display: none;
+  width: 400px;
+  height: 220px;
+  background: #c5c5c5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 60px;
+}
+
+.dark {
+  color: white;
+  background-color: #383838;
+}
+
+.orange {
+  color: white;
+  background: #d25b16;
+}
+
+.current-slid {
+  display: block;
+}
+/*# sourceMappingURL=styles.css.map */
