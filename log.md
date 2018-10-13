@@ -9,6 +9,7 @@
 ### Day 2: October 13, 2018
 **Today's Progress**:
 - Completed 11 items in javascript basics.
+
 **Thoughts**:
 5 more items to complete javascript basics, spent much time on "Profile Lookup", not comfortable with using Json yet. i'm not satisfied with today's progress.
 
