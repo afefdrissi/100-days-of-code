@@ -10,6 +10,24 @@
 
 .current-slid-button {
   background: #d25b16;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes example {
+  100% {
+    height: 10px;
+  }
+}
+
+@keyframes example {
+  100% {
+    height: 10px;
+  }
 }
 
 .slid {

@@ -1,0 +1,24 @@
+.inventory {
+  width: 126px;
+  background: #d8d8d8;
+}
+
+.inventory div {
+  width: 126px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.inventory div div {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin: 2px;
+  background: #6b6b6b;
+  border: 1px solid #333333;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=styles.css.map */

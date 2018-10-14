@@ -13,3 +13,12 @@
 **Thoughts**:
 5 more items to complete javascript basics, spent much time on "Profile Lookup", not comfortable with using Json yet. i'm not satisfied with today's progress.
 
+### Day 3: October 14, 2018
+**Today's Progress**:
+- Completed js Basics and 5 items in ES6 section.
+- Practiced some json and javascript.
+
+Coding done today is in codes>day_003.
+
+**Thoughts**:
+I'm grateful for every interaction i'm getting on twitter, it really makes me feel supported.

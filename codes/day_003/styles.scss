@@ -1,0 +1,21 @@
+.inventory{
+    
+    width: 126px;
+    background: rgb(216, 216, 216);
+    div{
+
+        width: 126px;
+        display: flex;
+        flex-wrap: wrap;
+       
+        div{
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            margin: 2px;
+            background: rgb(107, 107, 107);
+            border: 1px solid rgb(51, 51, 51);
+            border-radius: 3px;
+        }
+    }
+}
