@@ -1,13 +1,29 @@
 
 
 var inventory={
-            items:{"size":12,"Blue Healing Capsule":4,"Red Healing Capsule":12,"Moon card":2,"curry":1},
+            items:{"size":9,"Blue Healing Capsule":4,"Red Healing Capsule":12,"Moon card":2,"curry":1},
             stuff:{"size":12,"Spell paper":6,"Fur":3},
             quest:{"size":12,"Letter to Po":1,"Torch":5}};
 var inventoryElement={"id":"","name":"","availableTo":"","type":""};
 console.log(inventory);
 console.log(inventory["items"]["size"]);
 
+function loadInventory(){
+    for (var inventoryType in inventory) {
+    for (let i=0;i<inventory[inventoryType]["size"];i++){
+        $("#"+inventoryType).append("<li class='empty'></li>");
+
+    }
+    for ( var element in inventory[inventoryType]){
+        if (element!=="size"){
+            $("#"+inventoryType+' li.empty:first').append(element).removeClass('empty');
+        }   
+    }
+    
+    console.log(inventoryType);
+  }
+} 
+loadInventory();
 
 
 
@@ -22,10 +38,14 @@ var elementType=elementToBeAdded["type"];
 if (chekInventoryTypeSpace(elementType)!==0){
     var elementName=elementToBeAdded["name"];
     inventory[elementType][elementName]=number;
+    $("#"+elementType+' li.empty:first').append(elementName).removeClass('empty');
+
+    
 }
 
 }
 var elementToBeAdded={"name":"ruby gem","type":"stuff"};
 
-addElementToInventory(elementToBeAdded,3);
+
 console.log(inventory);
+
