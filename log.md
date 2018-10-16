@@ -29,3 +29,10 @@ I'm grateful for every interaction i'm getting on twitter, it really makes me fe
 - continued playing with javascript objects while building js/jquery inventory that i started yesterday.
 
 Coding done today is in codes>day_003.
+
+### Day 5: October 16, 2018
+**Today's Progress**: 
+it was a busy day but i managed to:
+- Complete 5 items in ES6 section.
+- check css grids.
+- fixe a stupid mistake in my inventory code.
