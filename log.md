@@ -22,3 +22,10 @@ Coding done today is in codes>day_003.
 
 **Thoughts**:
 I'm grateful for every interaction i'm getting on twitter, it really makes me feel supported.
+
+### Day 4: October 15, 2018
+**Today's Progress**:
+- Completed 6 items in ES6 section.
+- continued playing with javascript objects while building js/jquery inventory that i started yesterday.
+
+Coding done today is in codes>day_003.
