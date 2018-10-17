@@ -36,3 +36,9 @@ it was a busy day but i managed to:
 - Complete 5 items in ES6 section.
 - check css grids.
 - fixe a stupid mistake in my inventory code.
+
+### Day 6: October 17, 2018
+**Today's Progress**: 
+
+I enjoyed solving Rosetta Code: 100 doors @freeCodeCamp using 2 different ways.
+My coding for today is on 100-DAY-OF-CODE>Rosetta Code>100 doors.
