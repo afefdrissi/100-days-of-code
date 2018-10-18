@@ -42,3 +42,10 @@ it was a busy day but i managed to:
 
 I enjoyed solving Rosetta Code: 100 doors @freeCodeCamp using 2 different ways.
 My coding for today is on 100-DAY-OF-CODE>Rosetta Code>100 doors.
+
+### Day 7: October 18, 2018
+**Today's Progress**: 
+
+Played with CSS grids and coded this ui page not /* not completed yet.*/
+
+https://afefdrissi.github.io/mycssgridui/ 
