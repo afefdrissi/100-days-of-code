@@ -1,0 +1,131 @@
+body{
+    font-family: helvetica;
+    margin: 0;
+    overflow-y: hidden;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: 80px auto;
+    grid-template-areas: "div main"
+    "aside main";
+     >div{
+        grid-area: div;
+        background-color:#f44336;
+        text-align: center;
+        padding-top:20px;
+        color:white;
+        font-size:22pt;
+        font-weight: bold;
+     }
+     aside{
+        grid-area: aside;
+        background-color:#2D3538;
+        color: white;
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        >ul>li{
+            font-weight: bold;
+            cursor: pointer;
+            padding:12px;margin: 12px;
+            &.active {
+                background: #394144;
+                
+                >ul{ 
+                    font-weight: normal;
+                    font-size: 10pt;
+                    display: block;
+                    color:rgb(153, 163, 172);
+
+                }
+               
+            }
+        }
+        >ul>li>ul{
+            display:none;
+            li{padding: 12px;}
+            
+        }
+     }
+     main{
+        grid-area: main;
+        background: white;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 80px auto;
+        grid-template-areas: "header "
+        "list ";
+        .header{
+        margin: 0px 24px 0px 24px;
+        grid-area: header;
+        border-bottom: 1px solid rgb(215, 216, 216);
+        display: grid;grid-template-columns:repeat(7,auto) ;
+        grid-template-areas: "div . . . . . button ";
+
+        >div{
+            grid-area: div;
+            font-size: 18pt;
+            font-weight: bold;
+            color:#2D3538;
+            margin:12px 0px 12px 0px;
+            align-self: center;    
+           
+        }
+        >a{
+
+
+            grid-area: button;
+            font-size: 18px;
+            text-decoration:none;
+            color: #fff;
+            background-color:#f44336;
+            padding:10px 24px 10px 24px;
+            justify-self: end;
+            align-self: center;    
+        
+            
+            
+        }
+
+        }
+        .list{
+            grid-area: list;
+         >ul{
+             list-style:none;
+             padding: 0px;
+             overflow-y: scroll;
+             height:87vh;
+             top:0;
+             bottom:0;
+            
+             >li{
+                display:grid;
+                grid-template-columns:40px repeat(5,auto) 40px;
+                border-bottom: 1px solid #d7d8d8;
+                margin: 0px 12px 0px 12px;
+                padding:12px;
+                align-content: center;
+                &:hover{
+                    box-shadow: 0 0 5px 0px #7777779b;
+                    background: #f6f6f6;
+                }
+
+                &:first-child{
+                    position: sticky;
+                    top: 0;
+                    border-bottom: 1px solid rgb(215, 216, 216);
+                    font-weight: bold;
+                    background: #dedede;
+                    &:hover{
+                        box-shadow: none;
+                        
+                    }
+                    
+                }
+                 
+             }
+         }
+            }
+     }     
+}

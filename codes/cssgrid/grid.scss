@@ -1,0 +1,36 @@
+body{
+    display: grid;    
+    //justify-items: center;
+    //align-items: end;
+    ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-columns: auto 50px 10% 2fr 1fr;
+    grid-column-gap: 10px;
+    grid-gap: 20px;
+    top: 0px;
+    bottom: 0px;
+
+    //justify-items: center;
+ 
+
+    li{
+        grid-column: 1 / 3;
+        background: red;
+       // justify-self:center;
+
+    }
+    li.header{
+        grid-area: header;
+    }
+    li.footer{
+        grid-area: footer;
+    }
+}
+nav{
+    padding: 20px;
+    //justify-self:center;
+
+}}
