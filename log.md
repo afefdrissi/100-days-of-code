@@ -49,3 +49,14 @@ My coding for today is on 100-DAY-OF-CODE>Rosetta Code>100 doors.
 Played with CSS grids and coded this ui page not /* not completed yet.*/
 
 https://afefdrissi.github.io/mycssgridui/ 
+
+### Day 8: October 18, 2018
+**Today's Progress**: 
+- it was a busy day and i couldn't code for an hour, all i did was adding simple media query to https://afefdrissi.github.io/mycssgridui/ to test the grid responsivity.
+### Day 9: October 20, 2018
+**Today's Progress**: 
+- Worked on js/jquery to deal with check-boxes interactions
+ https://afefdrissi.github.io/mycssgridui/
+- Read about CSS Specificity : https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+
+
