@@ -58,5 +58,10 @@ https://afefdrissi.github.io/mycssgridui/
 - Worked on js/jquery to deal with check-boxes interactions
  https://afefdrissi.github.io/mycssgridui/
 - Read about CSS Specificity : https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+### Day 10: October 18, 2018
+**Today's Progress**: 
+- Installed babel locally.
+- redid the first 16 items on ES6 section.
+
 
 
