@@ -53,15 +53,18 @@ https://afefdrissi.github.io/mycssgridui/
 ### Day 8: October 18, 2018
 **Today's Progress**: 
 - it was a busy day and i couldn't code for an hour, all i did was adding simple media query to https://afefdrissi.github.io/mycssgridui/ to test the grid responsivity.
+
 ### Day 9: October 20, 2018
 **Today's Progress**: 
 - Worked on js/jquery to deal with check-boxes interactions
  https://afefdrissi.github.io/mycssgridui/
 - Read about CSS Specificity : https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+
 ### Day 10: October 21, 2018
 **Today's Progress**: 
 - Installed babel locally.
 - redid the first 16 items on ES6 section.
+
 ### Day 11: October 22, 2018
 **Today's Progress**:
 - completed 5 items on ES6 section @freecodecamp.
