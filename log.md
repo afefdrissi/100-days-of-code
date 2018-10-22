@@ -62,6 +62,10 @@ https://afefdrissi.github.io/mycssgridui/
 **Today's Progress**: 
 - Installed babel locally.
 - redid the first 16 items on ES6 section.
-
+### Day 11: October 22, 2018
+**Today's Progress**:
+- completed 5 items on ES6 section @freecodecamp.
+- created 2 mixins.
+ES6 section is little bit difficult for me, to avoid frustration, i keep reminding my self that "what's hard today won't be tomorrow with practice" .
 
 
