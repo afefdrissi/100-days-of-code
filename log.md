@@ -70,5 +70,13 @@ https://afefdrissi.github.io/mycssgridui/
 - completed 5 items on ES6 section @freecodecamp.
 - created 2 mixins.
 ES6 section is little bit difficult for me, to avoid frustration, i keep reminding my self that "what's hard today won't be tomorrow with practice" .
+### Day 12: October 23, 2018
+**Today's Progress**:
+- Completed the last 5 lessons on ES6 section @freecodecamp.
+- Improved my mixins: flex and typography and created few more scss files, i'm trying to  make my coding shorter and faster.
+
+**Today's coding**:
+https://github.com/afefdrissi/web-project.git
+
 
 
