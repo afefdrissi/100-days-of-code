@@ -78,5 +78,13 @@ ES6 section is little bit difficult for me, to avoid frustration, i keep remindi
 **Today's coding**:
 https://github.com/afefdrissi/web-project.git
 
+### Day 13: October 24, 2018
+**Today's Progress**:
+- Completed the last 15 lesson on regex section @freecodecamp..
+### Day 14: October 25, 2018
+**Today's Progress**:
+- Completed 7 lessons on regex section @freecodecamp.
+- worked on converting webdesign to html/scss/jquery.
+
 
 
