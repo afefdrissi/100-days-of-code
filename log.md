@@ -85,6 +85,20 @@ https://github.com/afefdrissi/web-project.git
 **Today's Progress**:
 - Completed 7 lessons on regex section @freecodecamp.
 - worked on converting webdesign to html/scss/jquery.
+### Day 15: October 26, 2018
+**Today's Progress**:
+- Completed 10 lessons on regex section @freecodecamp.
+- Continued working on converting webdesign to html/scss/jquery.
+https://afefdrissi.github.io/fusion/
+### Day 16: October 27, 2018
+**Today's Progress**:
+- Completed regex section @freecodecamp and stated with Debugging i think there is 2 or 3 more lessons to complete this section as well.
+- Had hard time dealing with autoprefixer to add Firefox prefix, i couldn't do it and i think it's because it is not needed anymore.
+- added contact form to the website, still incomplete, i need to work on it's responsivity.
+https://afefdrissi.github.io/fusion/
+
+
+  
 
 
 
