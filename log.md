@@ -94,9 +94,14 @@ https://afefdrissi.github.io/fusion/
 **Today's Progress**:
 - Completed regex section @freecodecamp and stated with Debugging i think there is 2 or 3 more lessons to complete this section as well.
 - Had hard time dealing with autoprefixer to add Firefox prefix, i couldn't do it and i think it's because it is not needed anymore.
-- added contact form to the website, still incomplete, i need to work on it's responsivity.
+- added contact form to the website, still incomplete.
 https://afefdrissi.github.io/fusion/
+### Day 17: October 28, 2018
+**Today's Progress**:
+- have not done anything on freecodecamp :(
+- Worked on the webpage's responsive design and added a footer, i might work on some animation tomorrow .
 
+https://afefdrissi.github.io/fusion/
 
   
 

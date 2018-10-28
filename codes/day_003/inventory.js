@@ -1,5 +1,9 @@
 
-
+$(".inventory-icon").click(function(){
+    $(".window").toggleClass("open");
+}
+    
+);
 var inventory={
             items:{"size":9,"Blue Healing Capsule":4,"Red Healing Capsule":12,"Moon card":2,"curry":1},
             stuff:{"size":12,"Spell paper":6,"Fur":3,"Fur":6},

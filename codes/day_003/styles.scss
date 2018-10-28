@@ -1,3 +1,60 @@
+.inventory-icon{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background : #686868;
+    width : 32px;
+    height : 32px;
+    &:hover{
+    background : #353535;
+    >div{
+        position: absolute;
+        right: 32px;
+        bottom: 0px;
+
+        .window-title{
+        height : 32px;
+        background : #19a5af;
+        animation-name: fullw;
+        animation-duration:1s;
+        animation-fill-mode: forwards;
+        }
+        @keyframes fullw {
+            0% {
+        transform: translate(163px,0px);
+                
+                width:0px
+            }
+            100% {
+        width:163px;
+        transform: translate(0px,0px);
+        
+
+            }
+        }
+
+    
+    }
+    &:active{
+        background: rgb(133, 108, 108);
+    }
+    .open{
+        background : #353535;
+        width : 163px;
+        right: 32px;
+        animation-name: fullheight;
+        animation-duration:1s;
+        animation-fill-mode: forwards;
+        }
+        @keyframes fullheight {
+            0% {height:0px}
+            100% {
+            height : 155px;
+
+            }
+        }
+    }}
+
 .inventory{
     
     width: 126px;

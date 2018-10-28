@@ -1,3 +1,93 @@
+.inventory-icon {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: #686868;
+  width: 32px;
+  height: 32px;
+}
+
+.inventory-icon:hover {
+  background: #353535;
+}
+
+.inventory-icon:hover > div {
+  position: absolute;
+  right: 32px;
+  bottom: 0px;
+}
+
+.inventory-icon:hover > div .window-title {
+  height: 32px;
+  background: #19a5af;
+  -webkit-animation-name: fullw;
+          animation-name: fullw;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fullw {
+  0% {
+    -webkit-transform: translate(163px, 0px);
+            transform: translate(163px, 0px);
+    width: 0px;
+  }
+  100% {
+    width: 163px;
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+
+@keyframes fullw {
+  0% {
+    -webkit-transform: translate(163px, 0px);
+            transform: translate(163px, 0px);
+    width: 0px;
+  }
+  100% {
+    width: 163px;
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+
+.inventory-icon:hover:active {
+  background: #856c6c;
+}
+
+.inventory-icon:hover .open {
+  background: #353535;
+  width: 163px;
+  right: 32px;
+  -webkit-animation-name: fullheight;
+          animation-name: fullheight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fullheight {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 155px;
+  }
+}
+
+@keyframes fullheight {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 155px;
+  }
+}
+
 .inventory {
   width: 126px;
   background: #d8d8d8;
